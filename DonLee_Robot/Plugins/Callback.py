@@ -82,7 +82,7 @@ async def cb_navg(bot, update: CallbackQuery):
 
     if ((index_val + 1 )== max_pages) or ((index_val + 1) == len(results)): # Max Pages
         temp_results.append([
-            InlineKeyboardButton("⏪ Back", callback_data=f"navigate({index_val}|back|{query})")
+            InlineKeyboardButton("⌫ 𝙲𝚘𝚖𝚎 𝙱𝚊𝚌𝚔", callback_data=f"navigate({index_val}|back|{query})")
         ])
 
     elif int(index_val) == 0:
@@ -90,13 +90,13 @@ async def cb_navg(bot, update: CallbackQuery):
 
     else:
         temp_results.append([
-            InlineKeyboardButton("⏪ Back", callback_data=f"navigate({index_val}|back|{query})"),
-            InlineKeyboardButton("Next ⏩", callback_data=f"navigate({index_val}|next|{query})")
+            InlineKeyboardButton("⌫ 𝙲𝚘𝚖𝚎 𝙱𝚊𝚌𝚔", callback_data=f"navigate({index_val}|back|{query})"),
+            InlineKeyboardButton("≫ 𝙽𝚎𝚡𝚝 𝙿𝚊𝚐𝚎 ≫", callback_data=f"navigate({index_val}|next|{query})")
         ])
 
     if not int(index_val) == 0:    
         temp_results.append([
-            InlineKeyboardButton(f"🔰 Page {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} 🔰", callback_data="ignore")
+            InlineKeyboardButton(f"🎶 𝙿𝚊𝚐𝚎𝚜 {index_val + 1}/{len(results) if len(results) < max_pages else max_pages} 🎶", callback_data="ignore")
         ])
     
     if show_invite and int(index_val) !=0 :
@@ -1609,7 +1609,7 @@ async def cb_about(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/MRK_YT"
+                    "My Dev ⚡", url="https://t.me/sachin_official_admin"
                 ),
                 
             InlineKeyboardButton
@@ -1640,15 +1640,13 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/Mrk_YT'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/PR0FESS0R-99/DonLee_Robot')
+            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/https://t.me/sachin_official_admin'),
+            InlineKeyboardButton('Source Code 🧾', url ='https://t.me/joinchat/UZCvQynJIZJiOWE1')
         ],[
-            InlineKeyboardButton('🛠 Support 🛠', url='https://t.me/mo_Tech_yt')
+            InlineKeyboardButton('🛠 Support 🛠', url='https://t.me/KicchaRequest')
         ],[
             InlineKeyboardButton('⚙ Help ⚙', callback_data="help")
-        ],[
-            InlineKeyboardButton('💫 Deploy Video 💫', url='https://youtu.be/uAHl5jvnrhk')
-        ]]
+         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
         
