@@ -1645,8 +1645,9 @@ async def callback_data(bot, update: CallbackQuery):
         ],[
             InlineKeyboardButton('🛠 Support 🛠', url='https://t.me/KicchaRequest')
         ],[
-            InlineKeyboardButton('⚙ Help ⚙', callback_data="help")
-         ]]
+            InlineKeyboardButton('⚙ Help ⚙', callback_data="help"),
+            InlineKeyboardButton('About 🚩', callback_data='about')
+        ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
         
