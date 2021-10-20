@@ -1643,7 +1643,7 @@ async def cb_about(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="t.me/Mrk_yt"
+                    "My Dev ⚡", url="t.me/sachin_official_admin"
                 ),
                 
             InlineKeyboardButton
@@ -1675,17 +1675,17 @@ async def callback_data(bot, update: CallbackQuery):
                       [
                           InlineKeyboardButton
                               (
-                                  '📢Update Channel', url='t.me/Mo_Tech_YT'
+                                  '📢Update Channel', url='https://t.me/gd_film'
                               ),
                           InlineKeyboardButton
                               (
-                                  '💡More Botz', url='t.me/MT_Botz'
+                                  '💬 Request Group', url='t.me/KicchaRequest'
                               )
                       ],
                       [
                           InlineKeyboardButton
                               (
-                                  DEPLOY, url=HEROKU
+                                  '📺 Tv Series', url='https://t.me/TV_VIRISION'
                               )
                      ],
                      [
