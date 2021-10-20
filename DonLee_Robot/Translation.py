@@ -32,7 +32,7 @@ class Translation(object):
 <b>Bot Owner (Works Only In Groups and Bot) :</b>
 -> <code>/add chat_id</code>
                 OR                  - Replay Any Message or Media
-  <code>/add @Username</code>
+   <code>/add @Username</code>
 
 -> <code>/settings</code> -  This Command Will Display You A Settings Pannel Instance Which Can Be Used To Tweek Bot's Settings Accordingly
 
@@ -44,9 +44,16 @@ class Translation(object):
 
 -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
 
-<code>Filter Types</code> - Button Will Show You The 3 Filter Option Available In Bot... Pressing Each Buttons Will Either Enable or Disable Them And This Will Take Into Action As Soon As You Use Them Without The Need Of A Restart
+-> <code>Filter Types</code> - Button Will Show You The 3 Filter Option Available In Bot... Pressing Each Buttons Will Either Enable or Disable Them And This Will Take Into Action As Soon As You Use Them Without The Need Of A Restart
 ○ Notice 📙:-
+<b><u>Notice</u></b>
+<code>Imdb Poster Imdb is available on this bot
+Rating Not Available</codd>
+
+    And
+
 ○Dont Spam Me...🤒
+
 ©️MᴀɪɴᴛᴀɪɴᴇD By</b> :- <b><i><a href="https://t.me/sachin_official_admin">Sachin S</a></i></b>
 @KicchaRequest
 """
