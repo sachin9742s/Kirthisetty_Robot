@@ -1,2 +1,2 @@
-DEPLOY = "💡 DEPLOY NOW 💡"
-HEROKU = "https://youtu.be/lI71HsWzTKE"
+📺Tv Series = "📺 Tv Series 📺"
+HEROKU = "https://t.me/TV_VIRISION"
