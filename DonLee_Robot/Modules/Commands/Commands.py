@@ -1,6 +1,6 @@
 # (c) @SpEcHIDe
 # (c) @AlbertEinsteinTG
-# (c) @Muhammed_RK, @Mo_Tech_YT , @Mo_Tech_Group, @MT_Botz
+# (c) @Muhammed_RK, @Mo_Tech_YT , @Mo_Tech_Group, @MT_Botz, @sachin_official_admin
 # Copyright permission under MIT License
 # All rights reserved by PR0FESS0R-99
 # License -> https://github.com/PR0FESS0R-99/DonLee_Robot/blob/main/LICENSE
@@ -33,7 +33,7 @@ async def start(bot, update):
             )
             return
         except Exception:
-            await update.reply_text(f"<b>This bot should be the admin on your update channel</b>\n\n<b>💢 ഈ ചാനലിൽ  @{Mo_Tech_YT.MO_TECH_YT_15} ബോട്ടിനെ അഡ്മിൻ ആക്. എന്നിട്ട് /start കൊടുക്</b>\n\n<b>🗣️ any Doubt @Mo_Tech_Group</b>")
+            await update.reply_text(f"<b>This bot should be the admin on your update channel</b>\n\n<b>💢 ഈ ചാനലിൽ  @{Mo_Tech_YT.MO_TECH_YT_15} ബോട്ടിനെ അഡ്മിൻ ആക്. എന്നിട്ട് /start കൊടുക്</b>\n\n<b>🗣️ any Doubt @KicchaRequest</b>")
             return
     try:
         file_uid = update.command[1]
@@ -73,17 +73,17 @@ async def start(bot, update):
                   [
                       Mo_Tech_YT.MO_TECH_YT_02
                           (
-                              '📢Update Channel', url='t.me/Mo_Tech_YT'
+                              '📢Update Channel', url='t.me/gd_film'
                           ),
                       Mo_Tech_YT.MO_TECH_YT_02
                           (
-                              '💡More Botz', url='t.me/MT_Botz'
+                              '💬 Request Group', url='t.me/KicchaRequest'
                           )
                   ],
                   [
                       Mo_Tech_YT.MO_TECH_YT_02
                           (
-                              DEPLOY, url=HEROKU
+                              '📺Tv Series', url='t.me/TV_VIRISION'
                           )
                   ],
                   [
@@ -112,7 +112,7 @@ async def help(bot, update):
                   [
                       Mo_Tech_YT.MO_TECH_YT_02
                           (
-                              DEPLOY, url=HEROKU
+                              '📺Tv Series', url='t.me/TV_VIRISION'
                           )
                   ],
                   [   
@@ -145,7 +145,7 @@ async def about(bot, update):
                   [
                       Mo_Tech_YT.MO_TECH_YT_02
                           (
-                              DEPLOY, url=HEROKU
+                              '📺Tv Series', url='t.me/TV_VIRISION'
                           )
                   ],
                   [
